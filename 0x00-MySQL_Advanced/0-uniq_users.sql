@@ -1,7 +1,7 @@
--- SQL script that creates a table and if table already exists, script should not fail
+-- creates a 'users' table if it doesn't already exist.
 
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(255) not null unique,
+    email VARCHAR(255) NOT NULL UNIQUE,
     name VARCHAR(255)
-)
+);
