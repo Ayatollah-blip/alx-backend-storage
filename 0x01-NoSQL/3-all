@@ -1,2 +1,2 @@
-// Insert document
-db.school.find()
+// All documents
+db.school.find().pretty()

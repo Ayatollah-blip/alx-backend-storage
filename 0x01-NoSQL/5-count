@@ -1,2 +1,2 @@
-// find match
+// Count
 db.school.count()
